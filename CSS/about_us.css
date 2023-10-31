@@ -1,0 +1,154 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_biru{
+    height: 15px;
+    width: 100%;
+    background-color: #53CBFF;
+}
+
+.navigation{
+    padding-left: 5%;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav img{
+    padding-top: 0.5%;
+    width: 35px;
+    height : 78px;
+    padding-left: 0.3%;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #53CBFF;
+}
+.farbucks{
+    font-size: 30px;
+    padding-left: 0.7%;
+    
+}
+nav ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    padding-left: 0.8%;
+    padding-top: 0.3%;
+}
+.isi_navbawah{
+    width:80px;
+    padding-bottom: 20px;
+}
+.register_space{
+    background-color:#53CBFF;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.register_word{
+    color: white;
+    font-size: 15px;
+    
+}
+.isi{
+    padding-top: 35px;
+    padding-left: 90px;
+
+}
+.header_about{
+    font-size: 30px;
+    color: #53CBFF;
+}
+.img_about{
+    padding-top: 20px;
+}
+.paragraf_about{
+    padding-top: 30px;
+    width: 50%;
+    color: #53CBFF;
+    font-size: 18px;
+    padding-bottom: 70px;
+}
+.footer{
+    bottom: 0;
+    margin-top: auto;
+}
+.footer_sosmed{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #E9E9E930;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+}
+.logo_sosmed{
+    font-size: 22px;
+    margin-right: 0.5%;
+    padding: 0.5%;
+    color: black;
+    
+}
+.cr{
+    color: #53CBFF;
+    font-size: 15px;
+}
+.copyright{
+    background-color:#E9E9E995 ;
+    display: flex;
+    text-decoration: none;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width:810px){
+    p.cr{
+        font-size: 10px;
+    }
+    a.register_word{
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    
+    }
+    nav img{
+        width: 20px;
+        height: 50px
+    }
+    .navigation{
+        padding-left: 8%;
+    }
+    .isi_navbawah{
+        width: 50px;
+    }
+    .isi{
+        padding-left: 10%;
+    }
+    .register_space{
+        width: 60px;
+        margin-right: 15px;
+    }
+    .paragraf_about{
+        padding-top: 20px;
+        width: 70%;
+        font-size: 13px;
+        padding-bottom: 40px;
+    }
+}

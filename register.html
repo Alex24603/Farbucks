@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register</title>
+    <script src="./JS/validasi.js"></script>
+</head>
+<body>
+    <div class="banner_biru"></div>
+    <section class="navigation">
+        <nav>
+            <div>
+                <div class="space_logo">
+                    <a href="home.html"><img src="./Assets/logo.png" alt="logo"></a>
+                    <a class="farbucks" href="">FArbucks</a>
+                </div>
+                <div class="nav_bawah">
+                    <ul>
+                        <li class="isi_navbawah"><a href="home.html">Home</a></li>
+                        <li class="isi_navbawah"><a href="coffee.html">Coffee</a></li>
+                        <li class="isi_navbawah"><a href="events.html">Events</a></li>
+                        <li class="isi_navbawah"><a href="about_us.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="register_space">
+                <a class="register_word" href="register.html">Register</a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="register">
+        <form action="./home.html"  onsubmit="return(validasi())" class="isi_regis">
+            <div class="space_regis">
+                <div class="regis_atas">
+                    <h1 class="regis_word">REGISTER</h1>
+                </div>
+                
+                <div class="form_bawah">
+                    <div class="name">
+                        <div class="space">
+                            <a>Full Name</a>
+                        </div>
+                        <br><input type="text" id="name">
+                    </div>
+        
+                    <div class="email">
+                        <div class="space">
+                            <a>Email</a>
+                        </div>
+                        <br><input type="email" id="email">
+                    </div>
+        
+                    <div class="password">
+                        <div class="space">
+                            <a>Password</a>
+                        </div>
+                        <br><input type="password" id="password">
+                    </div>
+    
+                    <div class="address">
+                        <div class="space">
+                            <a>Address</a>
+                        </div>
+                        <br><input type="text" id="address">
+                    </div>
+    
+                    <div class="terms">
+                        <div>
+                            <input type="checkbox" class="choose" name="choose" value="terms" id="terms">
+                            <label for="terms">I agree to the terms and conditions</label>
+                        </div>
+                    </div>
+        
+                    <div class="regis_button">
+                        <button type="submit" class="regis">Register</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="isi_footer">
+            <div class="footer_sosmed">
+                <a class="logo_sosmed" href= "https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="logo_sosmed" href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+                <a class="logo_sosmed" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a>
+            </div>
+
+            <div class="copyright">
+                <p class="cr">© 2022 Alexander, All Rights Reserved. </p>
+            </div>
+        </div>
+    </section>
+    <div class="banner_biru"></div>
+</body>
+</html>
